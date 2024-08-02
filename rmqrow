@@ -1,0 +1,18 @@
+// Select all elements with class 'wrapper', 'grp-cntnr', 'rw', or 'questionRowTbl'
+var elements = document.querySelectorAll('.wrapper, .grp-cntnr, .rw, .questionRowTbl');
+
+// Loop through each element and replace the classes with 'gulshan'
+elements.forEach(function(element) {
+    if (element.classList.contains('wrapper')) {
+        element.classList.replace('wrapper', 'gulshan');
+    }
+    if (element.classList.contains('grp-cntnr')) {
+        element.classList.replace('grp-cntnr', 'gulshan');
+    }
+    if (element.classList.contains('rw')) {
+        element.classList.replace('rw', 'gulshan');
+    }
+    if (element.classList.contains('questionRowTbl')) {
+        element.classList.replace('questionRowTbl', 'gulshan');
+    }
+});
